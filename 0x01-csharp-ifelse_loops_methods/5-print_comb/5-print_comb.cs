@@ -7,14 +7,11 @@ namespace _5_print_comb
         static void Main(string[] args)
         {
             int num;
-            for (num = 0; num < 100; num++)
+            for (num = 0; num < 99; num++)
             {
-                Console.Write("{0}, ", num.ToString("00"));
-                if (num == 99)
-                {
-                    Console.Write("{0}\n", num);
-                }
+                Console.Write("{0}, ", num.ToString("D2"));
             }
+            Console.Write("99\n");
         }
     }
 }
