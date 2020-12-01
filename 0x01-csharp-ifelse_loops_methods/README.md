@@ -1,4 +1,4 @@
-# 0x01. C# - if/else, loops, functions
+# Project folder for 0x01. C# - if/else, loops, functions
 ## Specializations - AR/VR ― C#
 ## by Carrie Ybay, Software Engineer at Holberton School
 
