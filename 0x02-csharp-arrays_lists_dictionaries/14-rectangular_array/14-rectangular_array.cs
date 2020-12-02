@@ -1,30 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-
-
-class Rectangle
+namespace _14_rectangular_array
 {
-    public static void Main(string[] args)
+    class Rectangle
     {
-        CreateGrid();
-        Console.ReadKey();
-    }
-
-    public static void CreateGrid()
-    {
-        int height = 5;
-        int width = 5;
-
-        int[,] grid = new int[width,height];
-        grid[2, 2] = 1;
-
-        for (int x = 0; x < width; x++)
+        static void Main(string[] args)
         {
-            for (int y = 0; y < height; y++)
+            int height = 5;
+            int width = 5;
+            int[,] grid = new int[width, height];
+            grid[2, 2] = 1;
+
+            for (int x = 0; x < width; x++)
             {
-                Console.Write(grid[x, y] + " ");
+                for (int y = 0; y < height; y++)
+                {
+                    if (y < height - 1)
+                    {
+                        Console.Write(grid[x, y] + " ");
+                    }
+                    else
+                    {
+                        Console.Write(grid[x, y]);
+                    }
+                }
+                Console.WriteLine();
             }
-            Console.WriteLine();
         }
     }
 }
