@@ -9,6 +9,6 @@ class Array
             Console.WriteLine("Index out of range");
             return (-1);
         }
-        return array[index];
+        return (array[index]);
     }
 }
