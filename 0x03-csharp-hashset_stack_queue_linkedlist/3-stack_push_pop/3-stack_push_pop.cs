@@ -8,7 +8,9 @@ class MyStack
         bool container = aStack.Contains(search);
         Console.WriteLine("Number of items: {0}", aStack.Count);
         Console.WriteLine("Top item: {0}", aStack.Peek());
-        Console.WriteLine("Stack contains {0}: {1}", search, container);
+        Console.WriteLine("Stack contains {0}: {1}",
+            search, 
+            container);
 
         if (container)
         {
@@ -24,7 +26,9 @@ class MyStack
                 aStack.Pop();
             }
         }
+
         aStack.Push(newItem);
+        
         return aStack;
     }
 }
