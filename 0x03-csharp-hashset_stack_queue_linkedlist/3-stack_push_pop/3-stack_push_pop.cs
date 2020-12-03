@@ -17,9 +17,7 @@ class MyStack
             {
                 i++;
                 if (item == search)
-                {
                     break;
-                }
             }
             for (int j = 0; j < i; j++)
             {
