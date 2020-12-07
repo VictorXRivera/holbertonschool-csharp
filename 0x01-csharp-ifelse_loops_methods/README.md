@@ -68,11 +68,20 @@ carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
 The last digit of 619 is 9 and is greater than 5
 ```
 ##### 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
-* This program will print the entire alphabet in lower case. However, I could not use loops and could only use Console.Write once.
+* This program will print the entire alphabet in lower case. However, I could only use one loop and use Console.Write once.
 * Example output:
 ```C#
 carrie@ubuntu:0x01/2-print_alphabet$ ls
 2-print_alphabet.cs  2-print_alphabet.csproj  bin  obj
 carrie@ubuntu:0x01/2-print_alphabet$ dotnet run
 abcdefghijklmnopqrstuvwxyzcarrie@ubuntu:0x01/2-print_alphabet$
+```
+##### 3. When I was having that alphabet soup, I never thought that it would pay off
+* This program will print the entire alphabet in lower case. However, I could only use one loop, use Console.Write only once, and must exclude the letters 'q' and 'e'.
+* Example output:
+```C#
+carrie@ubuntu:0x01/3-print_alphabt$ ls
+3-print_alphabt.cs  3-print_alphabt.csproj  bin  obj
+carrie@ubuntu:0x01/3-print_alphabt$ dotnet run
+abcdfghijklmnoprstuvwxyzcarrie@ubuntu:0x01/3-print_alphabt$
 ```
