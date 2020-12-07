@@ -21,11 +21,11 @@
 * You do not need to push your obj/ or bin/ folders
 * In the following examples, the main.cs files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.cs files at compilation. Our main.cs files might be different from the one shown in the examples
 
-#### Tasks
-##### Mandatory:
+### Tasks
+#### Mandatory:
 ##### 0. Positive anything is better than negative nothing
-* This program will assign a random signed number to the variable number and will print whether the number stored in the variable number is positive or negative.
-* Output of program below:
+* This program will assign a random signed number to a variable and will print whether the number stored in the variable number is positive or negative.
+* Example output:
 ```C#
 carrie@ubuntu:~/0x01/0-positive_or_negative$ ls
 0-positive_or_negative.cs  0-positive_or_negative.csproj  bin  obj
@@ -41,4 +41,38 @@ carrie@ubuntu:~/0x01/0-positive_or_negative$ dotnet run
 -7 is negative
 carrie@ubuntu:~/0x01/0-positive_or_negative$ dotnet run
 0 is zero
+```
+##### 1. The last digit
+*  This program will assign a random signed number to a variable and print whether the last digit is positive, negative, or is zero.
+* Example output:
+```C#
+carrie@ubuntu:~/0x01/1-last_digit$ ls
+1-last_digit.cs  1-last_digit.csproj  bin  obj
+carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
+The last digit of 8903 is 3 and is less than 6 and not 0
+carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
+The last digit of -6117 is -7 and is less than 6 and not 0
+carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
+The last digit of 2790 is 0 and is 0
+carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
+The last digit of 7363 is 3 and is less than 6 and not 0
+carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
+The last digit of 7590 is 0 and is 0
+carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
+The last digit of -3435 is -5 and is less than 6 and not 0
+carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
+The last digit of 6661 is 1 and is less than 6 and not 0
+carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
+The last digit of -365 is -5 and is less than 6 and not 0
+carrie@ubuntu:~/0x01/1-last_digit$ dotnet run
+The last digit of 619 is 9 and is greater than 5
+```
+##### 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+* This program will print the entire alphabet in lower case. However, I could not use loops and could only use Console.Write once.
+* Example output:
+```C#
+carrie@ubuntu:0x01/2-print_alphabet$ ls
+2-print_alphabet.cs  2-print_alphabet.csproj  bin  obj
+carrie@ubuntu:0x01/2-print_alphabet$ dotnet run
+abcdefghijklmnopqrstuvwxyzcarrie@ubuntu:0x01/2-print_alphabet$
 ```
