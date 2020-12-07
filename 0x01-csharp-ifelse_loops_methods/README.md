@@ -20,3 +20,25 @@
 * Each C# task requires its own folder and .csproj file. Push all task folders to your Github and ensure the task names on the folders are correct
 * You do not need to push your obj/ or bin/ folders
 * In the following examples, the main.cs files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.cs files at compilation. Our main.cs files might be different from the one shown in the examples
+
+#### Tasks
+##### Mandatory:
+##### 0. Positive anything is better than negative nothing
+* This program will assign a random signed number to the variable number and will print whether the number stored in the variable number is positive or negative.
+* Output of program below:
+```C#
+carrie@ubuntu:~/0x01/0-positive_or_negative$ ls
+0-positive_or_negative.cs  0-positive_or_negative.csproj  bin  obj
+carrie@ubuntu:~/0x01/0-positive_or_negative$ dotnet run
+3 is positive
+carrie@ubuntu:~/0x01/0-positive_or_negative$ dotnet run
+6 is positive
+carrie@ubuntu:~/0x01/0-positive_or_negative$ dotnet run
+-1 is negative
+carrie@ubuntu:~/0x01/0-positive_or_negative$ dotnet run
+-6 is negative
+carrie@ubuntu:~/0x01/0-positive_or_negative$ dotnet run
+-7 is negative
+carrie@ubuntu:~/0x01/0-positive_or_negative$ dotnet run
+0 is zero
+```
