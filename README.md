@@ -1,4 +1,4 @@
-# Repository for C# projects by Carrie Ybay, Software Engineer at Holberton School
+# Repository for C# projects completed.
 ## Directories:
 * 0x00-csharp-hello_world
 * 0x01. C# - if/else, loops, functions
