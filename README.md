@@ -6,3 +6,4 @@
 * 0x03. C# - Data Structures: HashSet, Stack, Queue, LinkedList
 * 0x04. C# - Exceptions
 * 0x05. C# - Structs, Enumerations
+* 0x06-csharp-classes
