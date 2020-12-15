@@ -15,11 +15,11 @@ public struct Dog
 
     public Rating rating;
 
-    public Dog(string name, float age, string owner, Rating rating)
+    public Dog(string Dog_name, float Dog_age, string Dog_owner, Rating Dog_rating)
     {
-        this.name = name;
-        this.age = age;
-        this.owner = owner;
-        this.rating = rating;
+        name = Dog_name;
+        age = Dog_age;
+        owner = Dog_owner;
+        rating = Dog_rating;
     }
 }
