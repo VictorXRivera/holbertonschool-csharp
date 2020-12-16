@@ -20,6 +20,9 @@ namespace Enemies
             health = 0;
         }
 
+        /// <summary>
+        /// Constructor with parameter
+        /// </summary>
         public Zombie(int value)
         {
             if (value < 0)
