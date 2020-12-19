@@ -1,0 +1,4 @@
+C:\Users\victo\Links\holbertonschool-csharp\0x07-csharp-tdd\0-add\MyMath.Console\obj\Debug\netcoreapp3.1\MyMath.Console.csprojAssemblyReference.cache
+C:\Users\victo\Links\holbertonschool-csharp\0x07-csharp-tdd\0-add\MyMath.Console\obj\Debug\netcoreapp3.1\MyMath.Console.AssemblyInfoInputs.cache
+C:\Users\victo\Links\holbertonschool-csharp\0x07-csharp-tdd\0-add\MyMath.Console\obj\Debug\netcoreapp3.1\MyMath.Console.AssemblyInfo.cs
+C:\Users\victo\Links\holbertonschool-csharp\0x07-csharp-tdd\0-add\MyMath.Console\obj\Debug\netcoreapp3.1\MyMath.Console.csproj.CoreCompileInputs.cache
