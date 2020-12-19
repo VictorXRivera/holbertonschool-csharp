@@ -1,17 +1,11 @@
-﻿using System.Linq;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System;
-using System.Collections.Generic;
-using static System.Console;
+﻿using System;
 
-[assembly: InternalsVisibleToAttribute("MyMath.Tests")];
 namespace MyMath
 {
     /// <summary>
     /// Class with methods handling addition
     /// </summary>
-    class Operations
+    public class Operations
     {
         /// <summary>
         /// Integer addition method
