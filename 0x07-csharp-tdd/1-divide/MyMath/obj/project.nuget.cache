@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kCNqFlFpUUpsXlTMADprSbqQV+BckRVfOeajfHpbgNPqs5ZE2fBstLZTHmqjiyA+/H9Rey2ftq9WMR5qr4L+UA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victo\\Links\\holbertonschool-csharp\\0x07-csharp-tdd\\1-divide\\MyMath\\MyMath.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
