@@ -8,7 +8,7 @@ namespace Text.Tests
         [Test]
         public void false_palindrome()
         {
-            string false_pali = "wipeout";
+            string false_pali = "Wipeout";
             bool result = Text.Str.IsPalindrome(false_pali);
             Assert.AreEqual(false, result);
         }
@@ -17,7 +17,7 @@ namespace Text.Tests
         public void true_palindrome()
         {
             string true_pali = "racecar";
-            bool result = Text.Str.IsPalindrome(true_pali);
+            var result = Text.Str.IsPalindrome(true_pali);
             Assert.AreEqual(true, result);
         }
 
@@ -25,7 +25,7 @@ namespace Text.Tests
         public void space_in_between_str()
         {
             string space_pali = " ";
-            bool result = Text.Str.IsPalindrome(space_pali);
+            var result = Text.Str.IsPalindrome(space_pali);
             Assert.AreEqual(true, result);
         }
     }
