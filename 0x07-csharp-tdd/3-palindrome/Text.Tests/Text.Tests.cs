@@ -44,5 +44,13 @@ namespace Text.Tests
             var result = Text.Str.IsPalindrome(C_pali);
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void empty_string()
+        {
+            string empty_str = "";
+            var result = Text.Str.IsPalindrome(empty_str);
+            Assert.AreEqual(true, result);
+        }
     }
 }
