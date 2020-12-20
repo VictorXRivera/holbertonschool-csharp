@@ -28,5 +28,21 @@ namespace Text.Tests
             var result = Text.Str.IsPalindrome(space_pali);
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void string_pali()
+        {
+            string str_pali = "A man, a plan, a canal: Panama.";
+            var result = Text.Str.IsPalindrome(str_pali);
+            Assert.AreEqual(true, result);
+        }
+
+        [Test]
+        public void Capital_pali()
+        {
+            string C_pali = "Racecar";
+            var result = Text.Str.IsPalindrome(C_pali);
+            Assert.AreEqual(true, result);
+        }
     }
 }
