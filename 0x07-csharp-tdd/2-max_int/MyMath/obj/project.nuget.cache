@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "escLoB695CWw72kZeeJaMc8I097NL4NSFQae4rd0GC4bRBYW0nacnvTGB3h47+6si/7kJsMRDHgL0pVuBTznUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victo\\Links\\holbertonschool-csharp\\0x07-csharp-tdd\\2-max_int\\MyMath\\MyMath.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
