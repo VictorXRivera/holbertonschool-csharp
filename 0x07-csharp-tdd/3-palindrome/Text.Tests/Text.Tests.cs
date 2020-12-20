@@ -5,15 +5,28 @@ namespace Text.Tests
     [TestFixture]
     public class Str
     {
-        [SetUp]
-        public void Setup()
+        [Test]
+        public void false_palindrome()
         {
+            string false_pali = "wipeout";
+            bool result = Text.Str.IsPalindrome(false_pali);
+            Assert.AreEqual(false, result);
         }
 
         [Test]
-        public void empty_string()
+        public void true_palindrome()
         {
-            Assert.Pass();
+            string true_pali = "racecar";
+            bool result = Text.Str.IsPalindrome(true_pali);
+            Assert.AreEqual(true, result);
+        }
+
+        [Test]
+        public void space_in_between_str()
+        {
+            string space_pali = " ";
+            bool result = Text.Str.IsPalindrome(space_pali);
+            Assert.AreEqual(true, result);
         }
     }
 }
