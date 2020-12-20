@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Text</name>
+    </assembly>
+    <members>
+        <member name="T:Text.Str">
+            <summary> String class </summary>
+        </member>
+        <member name="M:Text.Str.CamelCase(System.String)">
+            <summary> Method to check how many words are in string using CamelCase logic </summary>
+        </member>
+    </members>
+</doc>

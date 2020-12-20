@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "O9LHFABfzw9vn7alYvk6oL4+xj87JRlBpt+ESJ9uACPIgDw8X/edyMKfRi7gApAR/PzrfKco9Z4PZNusPiZpAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victo\\Links\\holbertonschool-csharp\\0x07-csharp-tdd\\5-camelcase\\Text\\Text.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
