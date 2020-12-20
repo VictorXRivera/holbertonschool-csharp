@@ -7,8 +7,9 @@ namespace Text.Tests
         [Test]
         public void empty_str()
         {
-            int empty_string = 0;
-            Assert.AreEqual(empty_string, 0);
+            string s = "";
+            int result = Text.Str.CamelCase(s);
+            Assert.AreEqual(0, result);
         }
 
         [Test]
@@ -16,7 +17,7 @@ namespace Text.Tests
         {
             string s = "WipeOut";
             int result = Text.Str.CamelCase(s);
-            Assert.AreEqual(result, 2);
+            Assert.AreEqual(2, result);
         }
 
         [Test]
@@ -24,7 +25,7 @@ namespace Text.Tests
         {
             string s = "omega";
             int result = Text.Str.CamelCase(s);
-            Assert.AreEqual(result, 0);
+            Assert.AreEqual(0, result);
         }
 
         [Test]
@@ -32,7 +33,15 @@ namespace Text.Tests
         {
             string s = "Collection";
             int result = Text.Str.CamelCase(s);
-            Assert.AreEqual(result, 1);
+            Assert.AreEqual(1, result);
+        }
+
+        [Test]
+        public void crazy_camel()
+        {
+            string s = "“helloWorldIAmHere”";
+            int result = Text.Str.CamelCase(s);
+            Assert.AreEqual(4, result);
         }
     }
 }
