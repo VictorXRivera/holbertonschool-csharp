@@ -1,6 +1,6 @@
 ﻿using System;
 
-/// <summary Object class </summary>
+/// <summary> Object class </summary>
 class Obj
 {
     /// <summary> Method that checks if object is an array type </summary>
