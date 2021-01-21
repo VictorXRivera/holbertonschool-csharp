@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Linq;
 
-// Class for vector math
+/// <summary>
+/// Class for vector math
+/// </summary>
 class VectorMath
 {
-    // Method that calculates and returns the length of a given vector
+    /// <summary>
+    /// Method that calculates and returns the length of a given vector
+    /// </summary>
     public static double Magnitude(double[] vector)
     {
         if (vector.Count() < 2 || vector.Count() > 3)
