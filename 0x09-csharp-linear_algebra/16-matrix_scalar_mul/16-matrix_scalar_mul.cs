@@ -10,6 +10,10 @@ class MatrixMath
     public static double[,] MultiplyScalar(double[,] matrix, double scalar)
     {
         double[,] negative = {{-1}};
+        if (!matrix.Length)
+        {
+            return negative;
+        }
         if (matrix.GetLength(0) < 2 || matrix.GetLength(0) > 3)
         {
             return negative;
