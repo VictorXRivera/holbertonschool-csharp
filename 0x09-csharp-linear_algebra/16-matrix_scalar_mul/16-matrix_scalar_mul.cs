@@ -10,16 +10,14 @@ class MatrixMath
     /// </summary>
     public static double[,] MultiplyScalar(double[,] matrix, double scalar)
     {
-        double[,] negative_matrix = {{-1}};
-        if (matrix.GetLength(0) < 2 || matrix.GetLength(0) > 3)
-        {
-            return negative_matrix;
-        }
+        if (matrix.GetLength(0) < 2 || matrix.GetLength(1) < 2 || matrix.GetLength(0) > 3 || matrix.GetLength(1) > 3)
+            return new double[,] {{-1}};
+        
         for (int one = 0; one < matrix.GetLength(0); one++)
         {
-            for (int two = 0; two < matrix.GetLength(1); two++)
+            for (int two = 0; two < matrix.GetLength(0); two++)
             {
-                matrix[one, two] = matrix[one, two] + scalar;
+                scalar *= matrix[one, two];
             }
         }
         return matrix;
