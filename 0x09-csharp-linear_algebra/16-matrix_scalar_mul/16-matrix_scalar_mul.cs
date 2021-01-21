@@ -1,4 +1,5 @@
 ﻿using System;
+
 /// <summary>
 /// MatrixMath class
 /// </summary>
@@ -9,20 +10,16 @@ class MatrixMath
     /// </summary>
     public static double[,] MultiplyScalar(double[,] matrix, double scalar)
     {
-        double[,] negative = {{-1}};
-        if (!matrix.Length)
-        {
-            return negative;
-        }
+        double[,] negative_matrix = {{-1}};
         if (matrix.GetLength(0) < 2 || matrix.GetLength(0) > 3)
         {
-            return negative;
+            return negative_matrix;
         }
-        for (int v = 0; v < matrix.GetLength(0); v++)
+        for (int one = 0; one < matrix.GetLength(0); one++)
         {
-            for (int r = 0; r < matrix.GetLength(1); r++)
+            for (int two = 0; two < matrix.GetLength(1); two++)
             {
-                matrix[v, r] = matrix[v, r] * scalar;
+                matrix[one, two] = matrix[one, two] + scalar;
             }
         }
         return matrix;
