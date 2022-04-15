@@ -1,0 +1,1 @@
+Projects teaching me how to setup Visual Studio Code and introducing me to the C Sharp Language.
