@@ -2,11 +2,6 @@
 {
     public static int[] CreatePrint(int size)
     {
-        if (size == 0)
-        {
-            Console.WriteLine();
-        }
-        
         if (size < 0)
         {
             Console.WriteLine("Size cannot be negative");
@@ -16,19 +11,15 @@
         int[] array1 = new int[size];
 
         for (int num = 0; num < size; num++)
-        {
             array1[num] = num;
-            Console.Write(array1[num]);
-
-            if (num == size - 1)
-            {
-                Console.WriteLine();
-            }
-            else
-            {
+        
+        foreach (var element in array1)
+        {
+            Console.Write(element);
+            if (element != array1[array1.Length - 1])
                 Console.Write(" ");
-            }
         }
-        return (array1);
+        Console.WriteLine();
+        return array1;
     }
 }
