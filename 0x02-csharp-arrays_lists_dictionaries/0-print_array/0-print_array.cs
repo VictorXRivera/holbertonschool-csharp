@@ -10,17 +10,16 @@
 
         int[] array1 = new int[size];
 
-        if (size == 0)
+
+        for (var num = 0; num < array1.Length; num++)
         {
-            Console.WriteLine();
-            return array1;
+            Console.Write(num);
+            if (num < array1.Length - 1)
+            {
+                Console.Write(" ");
+            }
         }
-        
-        for (int num = 0; num < size; num++)
-        {
-            array1[num] = num;
-        }
-        Console.WriteLine(String.Join(" ", array1));
+        Console.WriteLine();
         return array1;
     }
 }
