@@ -10,9 +10,9 @@
 
         int[] array1 = new int[size];
 
-        for (int i = 0; i < size; i++)
+        for (int num = 0; num < size; num++)
         {
-            array1[i] = i;
+            array1[num] = num;
         }
 
         Console.WriteLine("{0}", string.Join(" ", array1));
