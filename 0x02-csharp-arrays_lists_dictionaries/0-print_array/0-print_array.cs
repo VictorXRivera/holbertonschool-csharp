@@ -10,7 +10,7 @@
         if (size < 0)
         {
             Console.WriteLine("Size cannot be negative");
-            return null;
+            return (null);
         }
 
         int[] array1 = new int[size];
