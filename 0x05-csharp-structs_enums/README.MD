@@ -1,1 +1,1 @@
-0x05. C# - Structs, Enumerations
+C# Projects on structs and enums
