@@ -21,10 +21,10 @@ namespace Enemies
             }
             this.health = value;
         }
-
+        ///<summary>Method that returns health of Zombie</summary>
         public int GetHealth()
-    {
-        return(health);
-    }
+        {
+            return (health);
+        }
     }
 }
