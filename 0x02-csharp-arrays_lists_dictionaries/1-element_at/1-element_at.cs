@@ -1,4 +1,5 @@
-﻿class Array
+﻿using System;
+class Array
 {
     public static int elementAt(int[] array, int index)
     {
