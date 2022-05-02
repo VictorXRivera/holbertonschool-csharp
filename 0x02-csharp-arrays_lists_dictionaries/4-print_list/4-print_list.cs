@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class List
 {
@@ -7,7 +8,7 @@ class List
         if (size < 0)
         {
             Console.WriteLine("Size cannot be negative");
-            return null;
+            return (null);
         }
 
         List<int> new_list = new List<int>();
