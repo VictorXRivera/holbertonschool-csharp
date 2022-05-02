@@ -8,7 +8,7 @@ class List
         if (myList.Count == 0)
         {
             Console.WriteLine("List is empty");
-            return (-1);
+            return -1;
         }
 
         int max_integer = myList[0];
