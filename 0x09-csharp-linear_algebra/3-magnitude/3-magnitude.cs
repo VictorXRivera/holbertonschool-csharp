@@ -1,6 +1,6 @@
 ﻿using System;
 
-///<summary>Vectormath class </summary>
+///<summary>Vectormath class</summary>
 class VectorMath
 {
     ///<summary>Method that finds the length of 2D or 3D Vector</summary>
