@@ -1,7 +1,9 @@
 ﻿using System;
-
+///<summary>MatrixMath class</summary>
 class MatrixMath
 {
+    ///<summary>Matrix addition method</summary>
+    ///<return>If any matrix is not a 2D or 3D matrix, or both matrices are not the same size, return a matrix containing -1</return>
     public static double[,] Add(double[,] matrix1, double[,] matrix2)
     {
         if (matrix1.GetLength(0) == 2 && matrix1.GetLength(1) == 2 &&
