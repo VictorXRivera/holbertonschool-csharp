@@ -1,36 +1,31 @@
 ﻿using System;
+using System.Collections;
+    
 ///<summary>MatrixMath class</summary>
 class MatrixMath
 {
-    ///<summary>Inverse a matrix</summary>
-    ///<return>Return inverse matrix</return>
-    public static double[,] Inverse(double[,] matrix)
+    ///<summary>Inverse 2D method</summary>
+    ///<return>Return inversed matrix</return>
+    public static double[,] Inverse2D(double[,] matrix)
     {
-        int rows = matrix.GetLength(0);
-        int cols = matrix.GetLength(1);
-        double[,] MT = {{-1}};
-        
-
-        if (rows != 2)
-            return MT;
-        else
+        if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2 &&
+            (matrix[0, 0]*matrix[1, 1] - matrix[0, 1]*matrix[1, 0]) != 0)
         {
-            if (matrix[0, 0] == 7)
+            double[,] inverseMat = new double[,] {
+                {matrix[1, 1], (-1)*matrix[0, 1]},
+                {(-1)*matrix[1, 0], matrix[0, 0]}
+            };
+            double detInverMat = 1/(matrix[0, 0]*matrix[1, 1] - matrix[0, 1]*matrix[1, 0]);
+
+            for (int row = 0; row < matrix.GetLength(1); row++)
             {
-                double[,] matrix1 = { {0.15, -0.08}, {0.03, -0.18 } };
-                return matrix1;
+                for (int col = 0; col < matrix.GetLength(0); col++)
+                {
+                    inverseMat[row, col] = Math.Round(detInverMat*inverseMat[row, col], 2);
+                }
             }
-            if (matrix[0, 0] == 2)
-            {
-                double[,] matrix1 = { {0.5, 0},{-0.67, -0.17} };
-                return matrix1;
-            }
-            if (matrix[0, 0] == 3)
-            {
-                double[,] matrix1 =  { { 3, -3 }, { 1, -1 } };
-                return MT;
-            }
+            return inverseMat;
         }
-        return MT;
+        return new double[,] {{-1}};
     }
 }
