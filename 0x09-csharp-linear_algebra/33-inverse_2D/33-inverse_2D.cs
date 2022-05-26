@@ -3,7 +3,7 @@
 class MatrixMath
 {
     ///<summary>Inverse a matrix</summary>
-    ///<summary>Return inverse matrix</return>
+    ///<return>Return inverse matrix</return>
     public static double[,] Inverse(double[,] matrix)
     {
         int rows = matrix.GetLength(0);
