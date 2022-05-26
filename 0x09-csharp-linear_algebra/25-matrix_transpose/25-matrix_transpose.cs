@@ -1,9 +1,9 @@
 ﻿using System;
 
-/// <summary>MatrixMath class/summary>
+///<summary>MatrixMath class/summary>
 class MatrixMath
 {
-    /// <summary>Transpose matrix method</summary>
+    ///<summary>Transpose matrix method</summary>
     public static double[,] Transpose(double[,] matrix)
     {
         int rows = matrix.GetLength(0);
