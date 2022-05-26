@@ -1,9 +1,10 @@
 ﻿using System;
 
-///<summary>MatrixMath class/summary>
+///<summary>MatrixMath class</summary>
 class MatrixMath
 {
-    ///<summary>Transpose matrix method</summary>
+    ///<summary>Transpose matrix</summary>
+    ///<return>Resulting matrix or empty matrix</return>
     public static double[,] Transpose(double[,] matrix)
     {
         int rows = matrix.GetLength(0);
