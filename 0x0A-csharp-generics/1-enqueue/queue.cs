@@ -12,17 +12,22 @@ public class Queue<T>
     /// <summary>Class Node inside queue class</summary>
 	public class Node
 	{
-		private T value;
+        ///<summary>Node</summary>///
 		public Node next = null;
+        T value = default(T);
 
-		public Node(T stri)
+        ///<summary>Constructor</summary>///
+		public Node(T t)
 		{
-			value = stri;
+			this.value = t;
 		}
 	}
 
+    ///<summary>Object</summary>///
 	public Node head;
+    ///<summary>Object</summary>///
 	public Node tail;
+    ///<summary>Int</summary>///
 	public int count;
 
 	///<summary>Add new node at the end</summary>
@@ -45,7 +50,7 @@ public class Queue<T>
 	///<summary>Add new node at the end</summary>
 	public int Count()
 	{
-		return count;
+		return (count);
 	}
 
 }
