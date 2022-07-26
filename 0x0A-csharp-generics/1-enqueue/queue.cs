@@ -15,7 +15,6 @@ public class Queue<T>
         private T value;
         public Node next = null;
         
-        ///<summary>Constructor</summary>///
         public Node(T t)
         {
             value = t;
