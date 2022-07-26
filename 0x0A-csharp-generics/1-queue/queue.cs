@@ -14,16 +14,19 @@ public class Queue<T>
     {
         private T value;
         public Node next = null;
+        
+        ///<summary>Constructor</summary>///
         public Node(T t)
         {
             value = t;
         }
     }
-
+    
     public Node head;
-	public Node tail;
-	public int count;
+    public Node tail;
+    public int count;
 
+    ///<summary>Enqueue method</summary>///
     public void Enqueue(T value)
 	{
 		Node newnode = new Node(value);
