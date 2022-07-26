@@ -1,0 +1,12 @@
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/bin/Debug/netcoreapp2.1/1-queue.deps.json
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/bin/Debug/netcoreapp2.1/1-queue.runtimeconfig.json
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/bin/Debug/netcoreapp2.1/1-queue.runtimeconfig.dev.json
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/bin/Debug/netcoreapp2.1/1-queue.dll
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/bin/Debug/netcoreapp2.1/1-queue.pdb
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/obj/Debug/netcoreapp2.1/1-queue.csprojAssemblyReference.cache
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/obj/Debug/netcoreapp2.1/1-queue.csproj.CoreCompileInputs.cache
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/obj/Debug/netcoreapp2.1/1-queue.AssemblyInfoInputs.cache
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/obj/Debug/netcoreapp2.1/1-queue.AssemblyInfo.cs
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/obj/Debug/netcoreapp2.1/1-queue.dll
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/obj/Debug/netcoreapp2.1/1-queue.pdb
+/mnt/c/Users/traiv/holbertonschool-csharp/0x0A-csharp-generics/1-queue/bin/Debug/netcoreapp2.1/1-queue.xml
