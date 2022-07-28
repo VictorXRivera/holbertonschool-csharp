@@ -3,11 +3,11 @@
 public class Player
 {
     ///<summary>Parameter</summary>///
-    public string name;
+    private string name;
     ///<summary>Parameter</summary>///
-    public float maxHp;
+    private float maxHp;
     ///<summary>Parameter</summary>///
-    public float hp;
+    private float hp;
     
     ///<summary>Constructor</summary>///
     /// <param name="name">Defaulted to "Player"</param>///
