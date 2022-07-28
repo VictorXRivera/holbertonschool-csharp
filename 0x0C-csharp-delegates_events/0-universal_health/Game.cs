@@ -2,8 +2,11 @@
 ///<summary>Player class</summary>///
 public class Player
 {
+    ///<summary>Parameter</summary>///
     public string name;
+    ///<summary>Parameter</summary>///
     public float maxHp;
+    ///<summary>Parameter</summary>///
     public float hp;
     
     ///<summary>Constructor</summary>///
